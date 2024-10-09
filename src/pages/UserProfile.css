@@ -1,0 +1,41 @@
+/* src/pages/UserProfile.css */
+.profile-container {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+  }
+  
+  .profile-title {
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #34495e;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    color: #2980b9;
+    margin-top: 20px;
+  }
+  
+  .book-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .book-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,51 @@
+/* src/pages/Home.css */
+.home-container {
+    display: flex;                  /* Align the image and text side by side */
+    align-items: flex-start;        /* Align the items at the top */
+    justify-content: space-between; /* Add spacing between the image and text */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-container {
+    width: 50%;                     /* Set the text container width */
+  }
+  
+  .library-image {
+    width: 50%;                     /* Increase the image width to 50% */
+    max-width: 700px;               /* Increase the maximum width */
+    height: auto;                   /* Keep the aspect ratio */
+    margin-left: 20px;              /* Add space between the text and image */
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;       /* Stack image and text vertically */
+      text-align: center;
+    }
+  
+    .text-container {
+      width: 100%;
+    }
+  
+    .library-image {
+      width: 100%;
+      margin: 0 auto 20px auto;
+    }
+  }
+  
+  
+
