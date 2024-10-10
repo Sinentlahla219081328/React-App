@@ -33,12 +33,12 @@ To run this project, you need the following installed on your machine:
 
 1. **Clone the Repository**:
    
-   git clone https://github.com/your-username/library-management-system.git
-   cd library-management-system
+   https://github.com/Sinentlahla219081328/React-App.git
+   
   ## Run these command  to create React App
    npx create-react-app react-spa
 
-   cd react-spa
+   cd React-App
    
    npm install react-router-dom
 
