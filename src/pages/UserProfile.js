@@ -16,8 +16,8 @@ const UserProfile = () => {
       
       const users = {
         'Sinentlahla': { name: 'Sinentlahla Pindani', age: 25, email: 'sinentlahla.pindani@capaciti.org.za' },
-        'Asiphe': { name: 'John Doe', age: 24, email: 'asiphe.qampi@capaciti.org.za' },
-        'Sisipho': { name: 'Jane Doe', age: 23, email: 'sisipho.kanana@capaciti.org.za' }
+        'Asiphe': { name: 'Asiphe Qampi', age: 24, email: 'asiphe.qampi@capaciti.org.za' },
+        'Sisipho': { name: 'Sisipho Kanana', age: 23, email: 'sisipho.kanana@capaciti.org.za' }
       };
       
       const borrowedBooks = {
