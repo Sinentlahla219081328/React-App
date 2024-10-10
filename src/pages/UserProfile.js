@@ -1,24 +1,23 @@
-// src/pages/UserProfile.js
+
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import './UserProfile.css';  // Import CSS for styling
+import './UserProfile.css'; 
 
 const UserProfile = () => {
-  const { username } = useParams();  // Get dynamic username from the URL
+  const { username } = useParams();  
   const [user, setUser] = useState({ name: '', age: '', email: '' });
   const [borrowedBooks, setBorrowedBooks] = useState([]);
-  const [loading, setLoading] = useState(true);  // For loading state
+  const [loading, setLoading] = useState(true);  
 
   useEffect(() => {
     setLoading(true);
 
-    // Simulate fetching user and borrowed books data
     const fetchUserData = (username) => {
-      // Simulated user profiles and borrowed books for demonstration
+      
       const users = {
-        'Sinentlahla': { name: 'Sinentlahla Pindani', age: 30, email: 'sinentlahla.pindani@capaciti.org.za' },
-        'Asiphe': { name: 'John Doe', age: 28, email: 'asiphe.qampi@capaciti.org.za' },
-        'Sisipho': { name: 'Jane Doe', age: 25, email: 'sisipho.kanana@capaciti.org.za' }
+        'Sinentlahla': { name: 'Sinentlahla Pindani', age: 25, email: 'sinentlahla.pindani@capaciti.org.za' },
+        'Asiphe': { name: 'John Doe', age: 24, email: 'asiphe.qampi@capaciti.org.za' },
+        'Sisipho': { name: 'Jane Doe', age: 23, email: 'sisipho.kanana@capaciti.org.za' }
       };
       
       const borrowedBooks = {
