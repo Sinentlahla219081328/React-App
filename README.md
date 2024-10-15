@@ -10,8 +10,6 @@ This is a **Library Management System** built using **React**. It is a Single Pa
 - [Prerequisites](#prerequisites)
 - [Installation and Setup](#installation-and-setup)
 - [Running the Project](#running-the-project)
-- [Implementation Details](#implementation-details)
-- [Project Structure](#project-structure)
 
 ## Project Overview
 This project demonstrates the basics of a **Library Management System** using React. Users can navigate between the Home, About, and User Profile pages without reloading the entire page. This SPA allows users to:
